@@ -2,4 +2,4 @@ version: '3.5'
 services:
   go-linter-test-error-handling:
     build: .
-    image: fahernandez/go-linter-test-error-handling
+    image: fabianhnz/go-linter-test-error-handling
