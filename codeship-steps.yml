@@ -10,7 +10,7 @@
 
 
 - service: go-linter-test-error-handling
-  encrypted_dockercfg_path: build/ci/codeship-dockercfg.encrypted
+  encrypted_dockercfg_path: codeship-dockercfg.encrypted
   image_name: fabianhnz/go-linter-test-error-handling
   image_tag: latest
   name: docker push latest
